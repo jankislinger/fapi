@@ -2,9 +2,9 @@
   "posts": [
     {
       "key": "first-post",
-      "title": "My First Post",
-      "imageUrl": "img/blog/wide/blog-11.jpg",
-      "blogChunk": "Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae.",
+      "title": "Animace v ggplot2",
+      "imageUrl": "animate-1.gif",
+      "blogChunk": "Knihovna `ggplot2` je v současnosti nejefektivnější nástroj pro vizualizaci dat. V kombinaci s nástroji pro práci s daty z knihovny `dplyr` zvládnete v rychlosti vytvořit prakticky libovolný graf. Spousta uživatelů však neví, že cesta od statického grafu k dynamické animaci je jen jediný příkaz. Výsledek si můžete uložit například do obrázku ve formátu *gif* nebo do videa. V tomto článku si na velmi aktuálních datech ukážeme, jak je to snadné.",
       "author": "Jan Kislinger",
       "date": "2020-05-13",
       "tags": [
