@@ -1,5 +1,5 @@
 {
-  "key": "first-post",
+  "key": "animace-v-ggplot2-covid-19",
   "title": "Animace v ggplot2",
   "imageUrl": "animate-1.gif",
   "blogChunk": "Knihovna `ggplot2` je v současnosti nejefektivnější nástroj pro vizualizaci dat. V kombinaci s nástroji pro práci s daty z knihovny `dplyr` zvládnete v rychlosti vytvořit prakticky libovolný graf. Spousta uživatelů však neví, že cesta od statického grafu k dynamické animaci je jen jediný příkaz. Výsledek si můžete uložit například do obrázku ve formátu *gif* nebo do videa. V tomto článku si na velmi aktuálních datech ukážeme, jak je to snadné.",
