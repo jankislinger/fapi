@@ -6,11 +6,6 @@ jen jediný příkaz. Výsledek si můžete uložit například do obrázku ve
 formátu *gif* nebo do videa. V tomto článku si na velmi aktuálních
 datech ukážeme, jak je to snadné.
 
-***Upozornění:*** *Cílem tohoto článku není informovat o stavu pandemie,
-ani vytvářet predikce budoucího vývoje. Cílem je ukázat možnosti
-vizualizace takových dat. Pro relevantní informace navštivte stránky
-MVČR.*
-
 Pro přípravu dat budeme potřebovat knihovnu `readr`, pro přípravu dat
 `dplyr` a pro samotnou vizualizaci `ggplot2`. Všechny tyto knihovny jsou
 obsaženy v knihovně `tidyverse`, takže postačí, když načteme pouze tu.
@@ -91,7 +86,7 @@ plot(p)
 
 ![](/assets/gganimate-covid/init-plot-1.png)
 
-V dalším krokuprohodíme osy a u osy *x* otočíme pořadí (1 je nahoře, 15 dole).Přestože
+V dalším kroku zaměníme osy a u osy *x* převrátíme pořadí (1 je nahoře, 15 dole).Přestože
 jsme prohodili osy, značení stále *x* odpovídá pořadí státu a *y* počtu případů. Pořadí
 v grafu nechceme, proto jej odstraníme pomocí `breaks=NULL`.
 
