@@ -89,7 +89,8 @@ p <- ggplot(data_day, aes(rank)) +
 plot(p)
 ```
 
-![](/assets/gganimate-covid/init-plot-1.png)<!-- --> V dalším kroku
+![](/assets/gganimate-covid/init-plot-1.png)
+V dalším kroku
 prohodíme osy a u osy *x* otočíme pořadí (1 je nahoře, 15 dole).
 Přestože jsme prohodili osy, značení stále *x* odpovídá pořadí státu a
 *y* počtu případů. Pořadí v grafu nechceme, proto jej odstraníme pomocí
@@ -102,7 +103,7 @@ p <- p +
 plot(p)
 ```
 
-![](/assets/gganimate-covid/coord-flip-1.png)<!-- -->
+![](/assets/gganimate-covid/coord-flip-1.png)
 
 Název státu nechceme mít v legendě, ale přímo v grafu - i text bude
 pohyblivý. Ten nastavíme tak, aby pravý okraj textu (`hjust='right'`)
@@ -122,7 +123,7 @@ p <- p +
 plot(p)
 ```
 
-![](/assets/gganimate-covid/locations-1.png)<!-- -->
+![](/assets/gganimate-covid/locations-1.png)
 
 Poslední úpravy provedeme na popiskách grafu. Názvy os odstraníme a
 přidáme nadpis a podnadpis. Na ose *y* zvolíme popisky po 200
@@ -143,7 +144,7 @@ p <- p +
 plot(p)
 ```
 
-![](/assets/gganimate-covid/labels-1.png)<!-- -->
+![](/assets/gganimate-covid/labels-1.png)
 
 Graf je samozřejmě možné vytvořit jednou posloupností příkazů.
 
@@ -204,7 +205,7 @@ posledním datem, je možné si ji chvíli pozdržet parametrem `end_pause`.
 animate(anim, nframes = 500, end_pause = 25)
 ```
 
-![](/assets/gganimate-covid/animate-1.gif)<!-- -->
+![](/assets/gganimate-covid/animate-1.gif)
 
 Alternativně je možné animace rovnou uložit do souboru ve formátu gif,
 mp4 a spousty
