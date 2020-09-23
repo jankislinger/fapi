@@ -90,11 +90,10 @@ plot(p)
 ```
 
 ![](/assets/gganimate-covid/init-plot-1.png)
-V dalším kroku
-prohodíme osy a u osy *x* otočíme pořadí (1 je nahoře, 15 dole).
-Přestože jsme prohodili osy, značení stále *x* odpovídá pořadí státu a
-*y* počtu případů. Pořadí v grafu nechceme, proto jej odstraníme pomocí
-`breaks=NULL`.
+
+V dalším krokuprohodíme osy a u osy *x* otočíme pořadí (1 je nahoře, 15 dole).Přestože
+jsme prohodili osy, značení stále *x* odpovídá pořadí státu a *y* počtu případů. Pořadí
+v grafu nechceme, proto jej odstraníme pomocí `breaks=NULL`.
 
 ``` r
 p <- p +
