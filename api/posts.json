@@ -12,19 +12,6 @@
         "animace"
       ],
       "numComments": 0
-    },
-    {
-      "key": "second-post",
-      "title": "My Second Post",
-      "imageUrl": "img/blog/wide/blog-11.jpg",
-      "blogChunk": "Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae.",
-      "author": "Jan Kislinger",
-      "date": "2020-05-13",
-      "tags": [
-        "ggplot2",
-        "animace"
-      ],
-      "numComments": 0
     }
   ]
 }

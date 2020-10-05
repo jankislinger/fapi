@@ -19,7 +19,7 @@ require(gganimate)
 ## Příprava dat
 
 Jako zdroj dat použijeme organizaci [Our World in
-Data](https://ourworldindata.org/coronavirus){:target="\_blank"}. Data
+Data](https://ourworldindata.org/coronavirus). Data
 obsahují pro každý stát a každý den informace o počtu provedených testů,
 počtu potvrzených případů i počtu úmrtí. Obsahují i některé popisné
 statistiky o jednotlivých státech, ale těmi se zabývat
