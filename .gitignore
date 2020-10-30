@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+rstudio/*
+.local/*
+.rstudio/*
+.config/*
+.active-rstudio-document
